@@ -1,4 +1,4 @@
-import QPdfviewer from '@quasar/quasar-app-extension-qpdfviewer/src/component/QPdfviewer'
+import QPdfviewer from 'quasar-app-extension-qpdfviewervue3/src/component/QPdfviewer'
 
 export default ({ app }) => {
   app.component('q-pdfviewer', QPdfviewer)
