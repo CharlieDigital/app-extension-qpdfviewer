@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-qpdfviewervue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "QPdfviewer is an app extension for viewing PDF files. UNOFFICIAL build which supports Vue 3/Quasar 2.",
   "author": "Charles Chen <chen.charles.c@gmail.com>",
   "main": "src/index.js",
