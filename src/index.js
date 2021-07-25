@@ -7,14 +7,14 @@
 
  const extendConf = function (conf) {
     // make sure qpdfviewer boot file is registered
-    conf.boot.push('~@quasar/quasar-app-extension-qpdfviewer/src/boot/qpdfviewer.js')
+    conf.boot.push('~quasar-app-extension-qpdfviewervue3/src/boot/qpdfviewer.js')
     console.log(` App Extension (qpdfviewer) Info: 'Adding qpdfviewer boot reference to your quasar.conf.js'`)
 
     // make sure boot & component files transpile
-    conf.build.transpileDependencies.push(/quasar-app-extension-qpdfviewer[\\/]src/)
+    conf.build.transpileDependencies.push(/quasar-app-extension-qpdfviewervue3[\\/]src/)
 
     // make sure qpdfviewer css goes through webpack to avoid ssr issues
-    conf.css.push('~@quasar/quasar-app-extension-qpdfviewer/src/component/pdfviewer.sass')
+    conf.css.push('~quasar-app-extension-qpdfviewervue3/src/component/pdfviewer.sass')
     console.log(` App Extension (qpdfviewer) Info: 'Adding pdfviewer.sass css reference to your quasar.conf.js'`)
   }
 
